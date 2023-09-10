@@ -2,16 +2,25 @@ import sys
 
 ##CAPTURA DE DATOS##
 nombre = input("ingresa tu(s) nombre(s): ")
+if nombre.replace(" ", "").isalpha() is False:
+    print("El nombre solo puede contener letras")
+    sys.exit()
 if len(nombre) == 0:
     print("No ingresarte ningun dato como nombre.")
     sys.exit()
 
 apellido_paterno = input("Ingresa apellido paterno: ")
+if apellido_paterno.replace(" ", "").isalpha() is False:
+    print("El apellido  solo puede contener letras")
+    sys.exit()
 if len(apellido_paterno) == 0:
     print("No ingresarte ningun dato como apellido paterno.")
     sys.exit()
 
 apellido_materno = input("Ingresa apellido materno: ")
+if apellido_materno.replace(" ", "").isalpha() is False:
+    print("El apellido solo puede contener letras")
+    sys.exit()
 if len(apellido_materno) == 0:
     print("No ingresarte ningun dato como apellido materno.")
     sys.exit()
@@ -23,6 +32,7 @@ try:
         print("La edad no puede ser '0' o menor.")
 except ValueError:
     print("Los datos ingresados no son correctos.")
+    sys.exit()
 
 peso = input("Ingresa tu peso en KG:")
 try:
