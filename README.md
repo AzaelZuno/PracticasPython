@@ -7,7 +7,7 @@
 
      En general desarrolle el programa aplicando los conocimientos que tenia en otros lenguajes aplicandolos en Python.
 
-# Qué reflexiones me ha dejado el bootcamp hasta ahora
+# Qué reflexiones me ha dejado el bootcamp hasta ahora M1
   Ha sido muy bueno ya que aunque estoy tomandolo de manera asicrona los materiales son muy claros y no he tenido ninguna duda, ademas de poder ver las grabaciones de las sesiones
   para aclarar dudas que aunque es poco tiempo, se aprovecha al 100 para las dudas que han surgido, 
   Hasta ahora todo muy bien y todo claro, ademas incentiva a investigar por mi cuenta, no solo ver los videos y el material-
